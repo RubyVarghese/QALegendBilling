@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-23T22:14:19 IST" name="Suite" finished-at="2023-06-23T22:14:32 IST" duration-ms="12532">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginTest.TC_001_verifyUserLoginwithValidCredentials()[pri:1, instance:com.qalegendbilling.testScript.LoginTest@797b0699]" name="TC_001_verifyUserLoginwithValidCredentials" class="com.qalegendbilling.testScript.LoginTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-06-23T22:14:19 IST" name="Chrome Test" finished-at="2023-06-23T22:14:32 IST" duration-ms="12532">
+      <class name="com.qalegendbilling.testScript.LoginTest">
+        <test-method is-config="true" signature="setExtent(org.testng.ITestContext)[pri:0, instance:com.qalegendbilling.testScript.LoginTest@797b0699]" started-at="2023-06-23T22:14:19 IST" name="setExtent" finished-at="2023-06-23T22:14:19 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a47597]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.qalegendbilling.testScript.LoginTest@797b0699]" started-at="2023-06-23T22:14:19 IST" name="setUP" finished-at="2023-06-23T22:14:27 IST" duration-ms="7868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="TC_001_verifyUserLoginwithValidCredentials()[pri:1, instance:com.qalegendbilling.testScript.LoginTest@797b0699]" started-at="2023-06-23T22:14:27 IST" name="TC_001_verifyUserLoginwithValidCredentials" description="TC_001_verifyUserLoginwithValidCredentials" finished-at="2023-06-23T22:14:32 IST" duration-ms="4603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_verifyUserLoginwithValidCredentials -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qalegendbilling.testScript.LoginTest@797b0699]" started-at="2023-06-23T22:14:32 IST" name="tearDown" finished-at="2023-06-23T22:14:32 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_001_verifyUserLoginwithValidCredentials status=SUCCESS method=LoginTest.TC_001_verifyUserLoginwithValidCredentials()[pri:1, instance:com.qalegendbilling.testScript.LoginTest@797b0699] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qalegendbilling.testScript.LoginTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>
